@@ -2,4 +2,4 @@
 
 The code was created by dynamic manner.
 
-Link for the task : [CLICK HERE](http://localhost:5173/)
+Link for the task : [CLICK HERE](https://myprojectcardtask.netlify.app/)
