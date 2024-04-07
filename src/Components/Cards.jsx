@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 
 
 export default function Cards(props){
-  const {width, height, background,message,items,btnitem,val,isDisabled} = props; 
+  const {width, height, background,message,items,btnitem,val,isDisabled,color} = props; 
   // console.log(items)
   return <>
   <div className="mainbox">
@@ -14,7 +14,7 @@ export default function Cards(props){
       <ul>
         {
           items.map((element,index)=>(
-            <li key={index}>{element.isAvailable ? "✔" : "❌"} {element.usage1}</li>
+            <li key={index} style={{color:element.color}}>{element.isAvailable ? "✔" : "❌"} {element.usage1}</li>
           ))
         }
       </ul>
